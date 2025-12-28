@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacamat - Destek</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a5c3a 0%, #2d8a5e 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #1a5c3a;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .card p {
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .feature h3 {
+            color: #1a5c3a;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+        .contact-info a {
+            color: #1a5c3a;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .nav-links a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hacamat</h1>
+            <p>Hicri Takvim & Uzman Randevu Uygulaması</p>
+        </div>
+
+        <div class="card">
+            <h2>Uygulama Hakkında</h2>
+            <p>Hacamat uygulaması ile İslami takvimi takip edin, kandil ve mübarek günlerden haberdar olun. Bölgenizdeki uzman hacamatçıları bulun ve kolayca randevu alın.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📅</div>
+                    <h3>Hicri Takvim</h3>
+                    <p>Günlük hicri tarih ve önemli İslami günler</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🕌</div>
+                    <h3>Kandil Günleri</h3>
+                    <p>Kandil ve mübarek gün bildirimleri</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👨‍⚕️</div>
+                    <h3>Uzman Listesi</h3>
+                    <p>Bölgenizdeki hacamat uzmanları</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Kolay Randevu</h3>
+                    <p>Online randevu alma sistemi</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Destek & İletişim</h2>
+            <p>Uygulama ile ilgili sorularınız, önerileriniz veya karşılaştığınız sorunlar için bizimle iletişime geçebilirsiniz.</p>
+
+            <div class="contact-info">
+                <p><strong>E-posta:</strong> <a href="mailto:oguzhan.kara.dev@gmail.com">oguzhan.kara.dev@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/oguzhan-kara" target="_blank">github.com/oguzhan-kara</a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Sık Sorulan Sorular</h2>
+            <p><strong>Randevu nasıl alabilirim?</strong><br>
+            Uygulamaya giriş yaptıktan sonra, "Uzmanlar" sekmesinden size en yakın hacamat uzmanını seçip uygun bir tarih ve saat belirleyerek randevu alabilirsiniz.</p>
+
+            <p><strong>Bildirimleri nasıl açarım?</strong><br>
+            Profil > Bildirim Ayarları bölümünden kandil günleri ve randevu hatırlatıcı bildirimlerini açabilirsiniz.</p>
+
+            <p><strong>Hesabımı nasıl silebilirim?</strong><br>
+            Profil > Hesap Ayarları > Hesabı Sil seçeneğinden hesabınızı kalıcı olarak silebilirsiniz.</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="privacy.html">Gizlilik Politikası</a>
+            <a href="terms.html">Kullanım Koşulları</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Hacamat. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>
